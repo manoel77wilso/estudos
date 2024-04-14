@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+
+        a:visited {
+            color: #66627A;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            background-color: #F7FA7D;
+        }
+
+        a:active {
+            color: #947DFA;
+            background-color: black;
+        }
+
+        a::after{
+            content: '[LINK]';
+            text-decoration: none;
+            font-weight: normal;
+            color:darkblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>PERSONALIZANDO LINKS</h1>
+    <ul>
+        <li><a href="https://translate.google.com.br/?hl=pt-BR">Repositório GitHub</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Cidade">Canal do youtube</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Regi%C3%A3o_Nordeste_do_Brasil">Site do CursoEmVideos</a></li>
+    </ul>
+</body>
+
+</html>
